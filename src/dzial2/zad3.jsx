@@ -1,5 +1,5 @@
 import Header from './zad4.jsx';
-
+import React from 'react';
 function Nazwa() {
 
   return (
