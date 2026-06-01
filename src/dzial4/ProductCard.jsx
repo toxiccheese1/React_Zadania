@@ -4,8 +4,14 @@ function ProductCard({title, description})
     return(
         <>
         <div>
-            <h2>{title}</h2>
-            <p>{description}</p>
+            <code>
+                <pre>
+                    <h2>{title}</h2>
+                    <p>{description}</p>  
+                </pre>
+              
+            </code>
+            
         </div>
         </>
         
