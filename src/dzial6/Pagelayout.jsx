@@ -11,7 +11,6 @@ export default function PageLayout()
         Zmiksować mikserem lub wymieszać rózgą na gładką masę.</ContentArea>
         <SideBar><a href="https://aniagotuje.pl/przepis/gofry">Przepis na gofry od pani ani</a></SideBar>
         <div classname="footer">
-            
         </div>
         </>
        
