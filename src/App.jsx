@@ -12,32 +12,28 @@ import PageLayout from './dzial6/Pagelayout.jsx'
 import WeatherCard from './dzial7/WeatherCard.jsx'
 import UserProfile from './dzial7/UserProfile.jsx'
 import ProductImage from './dzial8/ProductImage.jsx'
-
+import InteractiveCard from './dzial10/InteractiveCard.jsx'
+import SimpleButton from './dzial10/SimpleButton.jsx'
+import App1 from './dzial10/App1.jsx'
+import Counter from './dzial11/Counter.jsx'
+import LoginForm from './dzial11/LoginForm.jsx'
+import CartCounter from './dzial13/CartCounter.jsx'
+import ListManager from './dzial13/ListManager.jsx'
+import UserCard from './dzial5/UserCard.jsx'
 function App() {
   const users = ["1", "Szymon", "Programiren"];
   return (
     <>
-      <Nazwa /><br/>
-      <DateTime/><br/>
-      
-      <CodeSnippet
-  title="Przykład funkcji JS"
-  language="JavaScript"
-/><br/>
-      <ArticleCard/>
-      <ArticleCard/>
-      <ArticleCard/><br/>
-      <Header2/>
-      <ProductGrid/>
-      <Footer/><br/>
-      <PageLayout/>
-      <WeatherCard city="Kraków" temperature="16" conditions="rainy" warning="⚠️ Ostrzeżenie 1 stopnia, mozliwe podtopienia!"/>
-      <UserProfile name="Jakub" email="jakub123@gmail.com" bio="Jakub Kieł" website="www.tiktok.com" isPremium="false" followerCount="2"/>
-      <UserProfile name="Tomasz" email="Tomaszproblema@gmail.com" bio="Tomasz Problem" website="www.instagram.com" isPremium="false" followerCount="43"/>
-      <UserProfile name="Zuzanna" email="Zuza@gmai.com" bio="Zuzanna Lubna" website="www.facebook.com" isPremium="true" followerCount="65"/>
-      <ProductImage image="./src/assets/szpon.jpg"/>
+      <UserCard name="Adam" role="Admin" avatarUrl="https://static.vecteezy.com/system/resources/thumbnails/024/183/502/small/male-avatar-portrait-of-a-young-man-with-a-beard-illustration-of-male-character-in-modern-color-style-vector.jpg" isOnline="online"/>
+      <UserCard name="Agnieszka" role="Użytkownik" avatarUrl="https://img.freepik.com/premium-vector/smiling-woman-avatar_937492-6135.jpg?semt=ais_hybrid&w=740&q=80" isOnline="offline"/>
+      <UserCard name="Marian" role="Vip" avatarUrl="https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001882.png" isOnline="online"/>
       <ProductImage image="https://dinoanimals.pl/wp-content/uploads/2012/07/Pletwal-blekitny.jpg"/>
       <div className='Imagegallery'><img src={kapibara} width={300}/></div>
+      <InteractiveCard/>
+      <Counter/>
+      <CartCounter/>
+      
+      
     </>
   )
 }

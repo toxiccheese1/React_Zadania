@@ -1,0 +1,2 @@
+1 funkcja statsCard zaczyna się małą literą
+2 komponenty zdefiniowane wewnątrz Dashboard

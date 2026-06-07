@@ -1,0 +1,3 @@
+1 Brak wygodnego zarządzania zależnościami – w CDN trzeba ręcznie dodawać linki do bibliotek, natomiast npm automatycznie instaluje i zarządza zależnościami projektu.
+2 Trudniejsza organizacja większych projektów – przy wielu plikach i bibliotekach kod staje się mniej przejrzysty. Projekty npm wspierają moduły i uporządkowaną strukturę katalogów.
+3 Brak narzędzi deweloperskich – korzystanie wyłącznie z CDN nie daje dostępu do wielu udogodnień, takich jak bundlery, lintery, testy czy hot-reload, które są standardem w projektach opartych na npm.

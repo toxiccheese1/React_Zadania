@@ -1,0 +1,8 @@
+Komponent to funkcja lub klasa, która definiuje fragment interfejsu użytkownika.
+Element React to obiekt opisujący, co ma zostać wyświetlone na ekranie. Tworzymy go za pomocą JSX.
+Dlaczego nazwy komponentów muszą zaczynać się wielką literą?
+
+React rozróżnia elementy HTML od komponentów na podstawie pierwszej litery nazwy:
+
+mała litera → traktowane jako znacznik HTML,
+wielka litera → traktowane jako komponent React.

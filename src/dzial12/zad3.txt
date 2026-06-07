@@ -1,0 +1,1 @@
+Wyświetlany będzie paragraf z licznikiem operowanym przez przycisk, oraz imię początkowo John, natomiast po kliknięciu drugiego przycisku wyświetli się Jane

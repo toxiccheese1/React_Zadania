@@ -1,0 +1,4 @@
+Importuje bibliotekę ReactDOM, która odpowiada za wyświetlanie komponentów Reacta w przeglądarce.
+Importuje główny komponent aplikacji App z pliku App.jsx.
+document.getElementById('root') znajduje w pliku HTML element:
+createRoot() tworzy korzeń (root) aplikacji React.

@@ -1,0 +1,11 @@
+To komponent Alert, który:
+
+pokazuje komunikat (message)
+ma typ alertu (type)
+może mieć przycisk zamknięcia (dismissible)
+
+Warunkowe renderowanie przycisku
+{dismissible && <button>✕</button>}
+Jak to działa?
+jeśli dismissible = true → pokazuje przycisk
+jeśli false → nic się nie renderuje

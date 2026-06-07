@@ -1,0 +1,9 @@
+JSX Expression to dowolne wyrażenie JavaScript umieszczone wewnątrz klamer {} w kodzie JSX. React oblicza wartość tego wyrażenia i wyświetla jej wynik.
+4 rodzaje wartości, które można przekazać do {}
+Liczby
+Napisy (stringi)
+Zmienne
+Wyniki wyrażeń lub funkcji
+2 rzeczy, których NIE można przekazać do {}
+Instrukcji JavaScript, np. if, for, while
+Zwykłych obiektów JavaScript do wyświetlenia

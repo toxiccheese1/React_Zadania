@@ -1,0 +1,6 @@
+Props (properties) to sposób przekazywania danych z komponentu nadrzędnego do komponentu podrzędnego w React.
+różnica jest taka że bez klemr to jest string literal w jsx a z klamrami to jest JSX expression
+Dlaczego klamry?
+Bo 28 to:
+liczba (number), nie string
+JSX wymaga klamer {} dla wszystkich wartości JavaScript innych niż string literal
