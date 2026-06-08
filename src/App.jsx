@@ -20,20 +20,16 @@ import LoginForm from './dzial11/LoginForm.jsx'
 import CartCounter from './dzial13/CartCounter.jsx'
 import ListManager from './dzial13/ListManager.jsx'
 import UserCard from './dzial5/UserCard.jsx'
+import ContactForm from './dzial14/ContactForm.jsx'
+import RegisterForm from './dzial14/RegisterForm.jsx'
+import Alert from './dzial19/alert.jsx'
 function App() {
   const users = ["1", "Szymon", "Programiren"];
   return (
     <>
-      <UserCard name="Adam" role="Admin" avatarUrl="https://static.vecteezy.com/system/resources/thumbnails/024/183/502/small/male-avatar-portrait-of-a-young-man-with-a-beard-illustration-of-male-character-in-modern-color-style-vector.jpg" isOnline="online"/>
-      <UserCard name="Agnieszka" role="Użytkownik" avatarUrl="https://img.freepik.com/premium-vector/smiling-woman-avatar_937492-6135.jpg?semt=ais_hybrid&w=740&q=80" isOnline="offline"/>
-      <UserCard name="Marian" role="Vip" avatarUrl="https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001882.png" isOnline="online"/>
-      <ProductImage image="https://dinoanimals.pl/wp-content/uploads/2012/07/Pletwal-blekitny.jpg"/>
-      <div className='Imagegallery'><img src={kapibara} width={300}/></div>
-      <InteractiveCard/>
-      <Counter/>
-      <CartCounter/>
-      
-      
+      <ContactForm/>
+      <RegisterForm/>
+      <Alert/>
     </>
   )
 }
