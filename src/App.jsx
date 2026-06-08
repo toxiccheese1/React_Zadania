@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import kapibara from './assets/kapibara.jpg'
 import './App.css'
+import Asik from './assets/asik.jpg'
 import Nazwa from './dzial2/zad3.jsx' 
 import DateTime from './dzial3/zad3.jsx'
 import CodeSnippet from './dzial3/zad4.jsx'
@@ -20,6 +21,8 @@ import LoginForm from './dzial11/LoginForm.jsx'
 import CartCounter from './dzial13/CartCounter.jsx'
 import ListManager from './dzial13/ListManager.jsx'
 import UserCard from './dzial5/UserCard.jsx'
+import Counter2 from './dzial18/Counter2.jsx'
+import Card from './dzial18/Card.jsx'
 function App() {
   const users = ["1", "Szymon", "Programiren"];
   return (
@@ -30,10 +33,9 @@ function App() {
       <ProductImage image="https://dinoanimals.pl/wp-content/uploads/2012/07/Pletwal-blekitny.jpg"/>
       <div className='Imagegallery'><img src={kapibara} width={300}/></div>
       <InteractiveCard/>
-      <Counter/>
       <CartCounter/>
-      
-      
+      <Counter2/>
+      <Card image={Asik}/>
     </>
   )
 }
