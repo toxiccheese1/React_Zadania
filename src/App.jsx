@@ -23,6 +23,9 @@ import ListManager from './dzial13/ListManager.jsx'
 import UserCard from './dzial5/UserCard.jsx'
 import Counter2 from './dzial18/Counter2.jsx'
 import Card from './dzial18/Card.jsx'
+import ContactForm from './dzial14/ContactForm.jsx'
+import RegisterForm from './dzial14/RegisterForm.jsx'
+import Alert from './dzial19/alert.jsx'
 function App() {
   const users = ["1", "Szymon", "Programiren"];
   return (
@@ -36,6 +39,9 @@ function App() {
       <CartCounter/>
       <Counter2/>
       <Card image={Asik}/>
+      <ContactForm/>
+      <RegisterForm/>
+      <Alert/>
     </>
   )
 }
