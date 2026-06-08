@@ -1,0 +1,9 @@
+sposób1 styl jako obiekt
+W React atrybut style nie przyjmuje stringa, tylko obiekt JavaScript.
+
+klucze są w camelCase (backgroundColor, nie background-color)
+wartości są stringami lub liczbami
+wszystko jest normalnym JS
+sposób 2
+
+style NIE jest stringiem, tylko obiektem.

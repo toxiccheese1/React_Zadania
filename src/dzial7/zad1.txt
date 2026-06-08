@@ -1,0 +1,5 @@
+1 instrukcja if
+Operator warunkowy (ternary) ? :
+Operator logiczny &&
+2 Operator && zwraca pierwszą wartość, jeśli jest ona fałszywa.
+3 Należy upewnić się, że po lewej stronie && znajduje się wartość logiczna (true lub false).

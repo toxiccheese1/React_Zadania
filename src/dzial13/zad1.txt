@@ -1,0 +1,1 @@
+Ponieważ funkcja używa tej samej wartości zmiennej count, ponieważ nie zmienia jej wartości w trakcie działania funkcji

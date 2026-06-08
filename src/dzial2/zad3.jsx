@@ -6,7 +6,7 @@ function Nazwa() {
     <>
       <h1>Szymon</h1>
       <p>Lubiem react</p>
-      <Header />
+      <Header/>
     </>
   )
 }

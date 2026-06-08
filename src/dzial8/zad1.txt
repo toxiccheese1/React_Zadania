@@ -1,0 +1,6 @@
+1. Folder public/
+
+Umieszczamy tutaj pliki, które mają być dostępne dokładnie pod określonym adresem
+1. Folder public/
+
+Umieszczamy tutaj pliki, które mają być dostępne dokładnie pod określonym adresem

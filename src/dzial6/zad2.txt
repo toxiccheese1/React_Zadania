@@ -1,0 +1,11 @@
+Wyświetlone zostaną 2 panele
+1 panel:
+Nagłowek statystyki, paragrafy Użytkownicy: 1240 oraz Zamówienia: 87
+
+2 panel:
+Nagłowek Powiadomienia i element span z wiadomościa brak nowych powiadomien
+
+
+div.panel bedzie miał w 1 panelu klase o nazwie panel panel-accent i w 2 panel
+
+children w pierwszym to 2 <p> natomiast w drugim to <span>

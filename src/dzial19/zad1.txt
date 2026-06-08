@@ -1,0 +1,13 @@
+Duplikacja stylu
+padding: 10px jest powtórzone w dwóch miejscach. Jeśli trzeba go zmienić, trzeba poprawić oba komponenty.
+Brak spójności
+Łatwo o rozjazd stylów w aplikacji (np. jeden komponent zmienisz, drugi zapomnisz).
+Trudniejsze utrzymanie
+Im większa aplikacja, tym więcej takich powtórzeń i trudniej nad tym zapanować.
+Brak centralnego źródła prawdy
+Nie wiadomo, czy 10px to „standard” czy przypadek.
+Jak to rozwiązać:
+1klasy css
+2komponenty reużywalne
+3css modules
+4desing tokens

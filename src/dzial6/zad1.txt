@@ -1,0 +1,3 @@
+props.children to specjalny props w React, który zawiera wszystko, co zostało umieszczone pomiędzy otwierającym i zamykającym znacznikiem komponentu.
+children jest specjalną nazwą zarezerwowaną przez React. Gdy umieszczamy zawartość między znacznikami komponentu, React automatycznie zapisuje ją w propsie o nazwie children.
+Przekazać jako children można tekst, elementy JSX i inne komponenty

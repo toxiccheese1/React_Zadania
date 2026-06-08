@@ -1,0 +1,1 @@
+Zwykła zmienna nie może zmienić wartości podczas działania strony, natomiast zmienna stanowa może

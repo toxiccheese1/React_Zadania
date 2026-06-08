@@ -1,0 +1,21 @@
+button{
+    border:none;
+    border-radius: 10px;
+    width:200px;
+    height: 30px;
+    align-self: center;
+    background-color: red;
+}
+.styleButton1{
+    background-color:blue;
+}
+.buttonStyle{
+    background-color: green;
+}
+.style1{
+    color:rgb(26, 224, 122);
+}
+.style2{
+    color:gray;
+    text-decoration: line-through ;
+}

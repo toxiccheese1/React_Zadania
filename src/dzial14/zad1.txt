@@ -1,0 +1,9 @@
+w pierwszym podejściu 
+React nie kontroluje wartości inputa
+DOM sam przechowuje aktualną wartość
+Dopiero przy submit „czytasz” stan z DOM
+
+natomiast w drugim podejściu
+React przechowuje aktualną wartość w stanie
+input zawsze „odzwierciedla state”
+każda zmiana → setEmail → re-render

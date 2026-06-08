@@ -1,0 +1,1 @@
+Różnica pomiędzy tymi 2 zapisami jest taka że pierwszy przekazuje referencje do funckji, a drugi wywołuje podczas renderowania, poprawny jest pierwszy zapis

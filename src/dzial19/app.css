@@ -1,12 +1,20 @@
 #sukces{
     color:green;
     font-size: large;
+    background-color: white;
 }
 #ostrzez{
     color:yellow;
     font-size: large;
+    background-color: blue;
 }
 #niebezp{
     color:red;
     font-size: large;
+    background-color: black;
+}
+button{
+    border:none;
+    border-radius: 10px;
+    background-color: blue;
 }

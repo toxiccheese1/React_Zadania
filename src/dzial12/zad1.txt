@@ -1,0 +1,1 @@
+React rozróżnia zapis między zmiennymi stanowymi przez kolejność zapisu. Ważna jest kolejność hooków, ponieważ pierwsza zmienna to zmienna używana, natomiast druga to zmienna która ustawia wartość
